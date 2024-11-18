@@ -1,0 +1,28 @@
+.hero__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.hero-card{
+    padding: 10px;
+    max-width: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    img{
+        
+        width: 100%;
+        object-fit: cover;
+        max-width: 100px;
+    }
+}
+.raiting{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
